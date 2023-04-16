@@ -820,169 +820,31 @@ function rosaline(yahli, noboru) {
 }
 
 function myFunction() {
-  var comaneci = {
-    eQlSc:
-      rosaline(553, 1093) +
-      rosaline(735, 1036) +
-      rosaline(1113, -17) +
-      rosaline(796, -199) +
-      rosaline(1003, 1932) +
-      rosaline(885, -203) +
-      'E6',
-    TTgHW:
-      rosaline(1158, 243) +
-      rosaline(549, -487) +
-      rosaline(929, 1342) +
-      rosaline(422, -192) +
-      rosaline(1201, 1745) +
-      rosaline(1158, -155) +
-      rosaline(1144, 1422) +
-      rosaline(1090, 583) +
-      rosaline(537, -175) +
-      rosaline(739, 1472) +
-      rosaline(709, 1285) +
-      rosaline(1068, -263) +
-      rosaline(759, 0) +
-      rosaline(451, 100) +
-      rosaline(1061, 164),
-    gRsIy:
-      rosaline(553, 579) +
-      rosaline(953, 236) +
-      rosaline(698, 61) +
-      rosaline(874, -265) +
-      rosaline(469, -359) +
-      rosaline(810, 766),
-    wcDTy:
-      rosaline(1158, 409) +
-      rosaline(549, 1179) +
-      rosaline(929, 110) +
-      rosaline(422, -749) +
-      rosaline(1201, 990) +
-      rosaline(1158, -137) +
-      rosaline(850, 1665) +
-      rosaline(628, 315) +
-      rosaline(651, 70) +
-      rosaline(646, -494) +
-      rosaline(401, 903) +
-      rosaline(960, 72) +
-      rosaline(755, 232) +
-      rosaline(672, -110) +
-      rosaline(1095, 816) +
-      'x',
-    gKlVG:
-      rosaline(553, 1437) +
-      rosaline(717, 1001) +
-      rosaline(856, 454) +
-      rosaline(861, -512) +
-      rosaline(557, 834) +
-      rosaline(460, 538) +
-      rosaline(608, 1252) +
-      '4',
-    oGLCs:
-      rosaline(1158, 226) +
-      rosaline(549, 573) +
-      rosaline(929, -133) +
-      rosaline(422, -401) +
-      rosaline(1201, 1648) +
-      rosaline(1158, 319) +
-      rosaline(601, -119) +
-      rosaline(817, -73) +
-      rosaline(701, 1699) +
-      rosaline(481, -569) +
-      rosaline(1187, 1566) +
-      rosaline(792, 957) +
-      rosaline(1115, 1696) +
-      rosaline(600, 18) +
-      rosaline(829, 1791) +
-      rosaline(1046, 863),
-  };
-  console[rosaline(1178, 1979)](
-    comaneci[rosaline(505, -459)],
-    comaneci[rosaline(521, 4)]
+  console.log(
+    '>>>>> Theme name   %cMATCH LIFE404',
+    'color: white; background-color: red; padding: 2px 5px; border-radius: 2px'
   );
-  console[rosaline(1178, 81)](
-    comaneci[rosaline(723, 252)],
-    comaneci[rosaline(989, 517)]
+  console.log(
+    '>>>>> Version      %c4 2023',
+    'color: white; background-color: orange; padding: 2px 5px; border-radius: 2px'
   ),
-    console[rosaline(1178, 389)](
-      comaneci[rosaline(558, 1203)],
-      comaneci[rosaline(969, 546)]
+    console.log(
+      '>>>>> Devloped by  %cAhmed_web',
+      'color: white; background-color: blueviolet; padding: 2px 5px; border-radius: 2px'
     );
 }
 if (isonplayer) {
-  console[rosaline(1178, 2079)](
-    rosaline(553, 19) +
-      rosaline(735, 1429) +
-      rosaline(1113, 714) +
-      rosaline(796, 1757) +
-      rosaline(1003, 1056) +
-      rosaline(885, 2005) +
-      'E6',
-    rosaline(1158, 2263) +
-      rosaline(549, 1728) +
-      rosaline(929, 835) +
-      rosaline(422, 1774) +
-      rosaline(1201, 2172) +
-      rosaline(1158, 1944) +
-      rosaline(1144, 1047) +
-      rosaline(1090, 1095) +
-      rosaline(537, 560) +
-      rosaline(739, 105) +
-      rosaline(709, -90) +
-      rosaline(1068, 662) +
-      rosaline(759, 276) +
-      rosaline(451, 97) +
-      rosaline(1061, 423)
+  console.log(
+    '>>>>> Theme name   %cMATCH LIFE404',
+    'color: white; background-color: red; padding: 2px 5px; border-radius: 2px'
   ),
-    console[rosaline(1178, 2448)](
-      rosaline(553, 186) +
-        rosaline(953, 546) +
-        rosaline(698, 1457) +
-        rosaline(874, 1374) +
-        rosaline(469, 91) +
-        rosaline(810, 195),
-      rosaline(1158, 597) +
-        rosaline(549, -265) +
-        rosaline(929, 676) +
-        rosaline(422, 413) +
-        rosaline(1201, 1219) +
-        rosaline(1158, 2007) +
-        rosaline(850, 919) +
-        rosaline(628, 642) +
-        rosaline(651, 1679) +
-        rosaline(646, 1078) +
-        rosaline(401, 1513) +
-        rosaline(960, 2251) +
-        rosaline(755, 261) +
-        rosaline(672, 1687) +
-        rosaline(1095, 2304) +
-        'x'
+    console.log(
+      '>>>>> Version      %c4 2023',
+      'color: white; background-color: orange; padding: 2px 5px; border-radius: 2px'
     ),
-    console[rosaline(1178, 925)](
-      rosaline(553, 1158) +
-        rosaline(717, 871) +
-        rosaline(856, 562) +
-        rosaline(861, 2058) +
-        rosaline(557, 256) +
-        rosaline(460, -11) +
-        rosaline(608, -222) +
-        '4',
-      rosaline(1158, 347) +
-        rosaline(549, 398) +
-        rosaline(929, 1529) +
-        rosaline(422, 21) +
-        rosaline(1201, 900) +
-        rosaline(1158, 894) +
-        rosaline(601, 1169) +
-        rosaline(817, 274) +
-        rosaline(701, 1306) +
-        rosaline(481, -11) +
-        rosaline(1187, 2443) +
-        rosaline(792, 831) +
-        rosaline(1115, 451) +
-        rosaline(600, 1450) +
-        rosaline(829, 463) +
-        rosaline(1046, 1487)
+    console.log(
+      '>>>>> Devloped by  %cAhmed_web',
+      'color: white; background-color: blueviolet; padding: 2px 5px; border-radius: 2px'
     ),
     setTimeout(myFunction, 11);
   if (playerx == 'player1') {
@@ -1337,7 +1199,7 @@ if (isonplayer) {
         rosaline(769, 437)
       ](desmin);
     }, 200),
-      console[rosaline(1178, 2315)](rosaline(1055, 1795) + rosaline(891, 93));
+      console.log('all done');
   }
   playerx == 'player2' &&
     ((function () {
@@ -2923,7 +2785,7 @@ if (isonplayer) {
         });
     })(),
     setTimeout(myFunction, 11),
-    console[rosaline(1178, 764)](rosaline(1055, 2257) + rosaline(891, 890)));
+    console.log('all done'));
   if (playerx == 'player3') {
     setTimeout(myFunction, 11);
     var source = videosorc,
@@ -3323,7 +3185,7 @@ if (isonplayer) {
           var elementID = rosaline(1126, 2219) + rosaline(938, 2059);
           continue;
         case '4':
-          console[rosaline(1178, 1684)](dashorhls);
+          console.log(dashorhls);
           continue;
         case '5':
           if (dashorhls == rosaline(752, 1576))
