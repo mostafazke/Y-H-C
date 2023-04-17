@@ -837,372 +837,56 @@ if (isonplayer) {
   console.log(
     '>>>>> Theme name   %cMATCH LIFE404',
     'color: white; background-color: red; padding: 2px 5px; border-radius: 2px'
-  ),
-    console.log(
-      '>>>>> Version      %c4 2023',
-      'color: white; background-color: orange; padding: 2px 5px; border-radius: 2px'
-    ),
-    console.log(
-      '>>>>> Devloped by  %cAhmed_web',
-      'color: white; background-color: blueviolet; padding: 2px 5px; border-radius: 2px'
-    ),
-    setTimeout(myFunction, 11);
+  );
+  console.log(
+    '>>>>> Version      %c4 2023',
+    'color: white; background-color: orange; padding: 2px 5px; border-radius: 2px'
+  );
+  console.log(
+    '>>>>> Devloped by  %cAhmed_web',
+    'color: white; background-color: blueviolet; padding: 2px 5px; border-radius: 2px'
+  );
   if (playerx == 'player1') {
     setTimeout(myFunction, 11);
-    const video = document[
-        rosaline(700, -58) + rosaline(771, 588) + rosaline(613, 588)
-      ](rosaline(466, 1069)),
+    const video = document.querySelector('video'),
       source = videosorc,
       defaultOptions = {};
-    if (Hls[rosaline(954, 290) + rosaline(496, 1361) + 'd']()) {
+    if (Hls.isSupported()) {
       const hls = new Hls();
-      hls[rosaline(711, 608) + rosaline(749, 484)](source),
-        hls.on(
-          Hls[rosaline(819, 1736) + 's'][
-            rosaline(636, 452) + rosaline(1039, 1836) + rosaline(397, -158)
-          ],
-          function (rouse, reegan) {
-            var yaremy = {
-              qFTIN: function (tion, caton, alexzandria) {
-                return tion(caton, alexzandria);
-              },
-              doTXI: function (wayneshia, alejos) {
-                return wayneshia !== alejos;
-              },
-              SvfIq: rosaline(476, 335),
-              KbRlT: rosaline(923, 735),
-              ySFeF: function (scion, brasen) {
-                return scion + brasen;
-              },
-              gMpPt: function (laroyce, patricia) {
-                return laroyce + patricia;
-              },
-              WSCcx:
-                rosaline(706, -450) +
-                rosaline(1073, 1061) +
-                rosaline(540, 427) +
-                rosaline(822, 488) +
-                rosaline(942, 601) +
-                rosaline(595, 169) +
-                rosaline(418, 570) +
-                rosaline(930, 262) +
-                rosaline(1082, 126) +
-                rosaline(816, 1551) +
-                rosaline(1089, -60) +
-                rosaline(480, -102) +
-                rosaline(814, 1360) +
-                rosaline(1142, 349),
-              Gakwo:
-                rosaline(485, 319) +
-                rosaline(491, 703) +
-                rosaline(445, 246) +
-                rosaline(1099, 1084) +
-                rosaline(492, -52) +
-                rosaline(404, -476) +
-                rosaline(753, 1398) +
-                rosaline(968, 397) +
-                rosaline(495, 1221) +
-                rosaline(1156, 956) +
-                rosaline(497, -174) +
-                rosaline(870, 700) +
-                rosaline(1171, 78) +
-                rosaline(1169, 1242),
-              JSryO: function (tiffanny, evaleen) {
-                return tiffanny(evaleen);
-              },
-              jWnVd:
-                rosaline(956, 630) + rosaline(951, 945) + rosaline(813, 275),
-              yOCuk: function (karch, anirvin) {
-                return karch + anirvin;
-              },
-              OWDyD: function (nadilyn, jubran) {
-                return nadilyn + jubran;
-              },
-              iojpy:
-                rosaline(849, 404) +
-                rosaline(902, 23) +
-                rosaline(614, 165) +
-                rosaline(545, -155) +
-                rosaline(738, 810) +
-                rosaline(569, -86),
-              YqBmn: rosaline(976, 735),
-              DmdtG: function (niela, wattson) {
-                return niela + wattson;
-              },
-              eMDSE: rosaline(675, 1253) + 'ng',
-              dTVcz: function (elilah, clerissa) {
-                return elilah === clerissa;
-              },
-              mMOUi: rosaline(843, 1569),
-              JBIzo: rosaline(426, 586),
-            };
-            const laurentina = hls[rosaline(1080, 226) + 's'][
-              rosaline(658, 135)
-            ]((cambre) => cambre[rosaline(511, -212) + 't']);
-            defaultOptions[rosaline(456, 9) + 'ty'] = {
-              default: laurentina[0],
-              options: laurentina,
-              forced: !![],
-              onChange: (abdelhamid) => updateQuality(abdelhamid),
-            };
-            const leevan = new Plyr(video, defaultOptions);
-            leevan[rosaline(572, 63)](
-              yaremy[rosaline(888, 713)],
-              function (emmytt) {
-                var syles = {
-                  Jbjqv: function (geidy, sreeram) {
-                    return yaremy[rosaline(441, 1014)](geidy, sreeram);
-                  },
-                  htZDe: function (mecca, abdulla) {
-                    return yaremy[rosaline(554, 73)](mecca, abdulla);
-                  },
-                  LjFFw: yaremy[rosaline(455, -57)],
-                  FohwL: yaremy[rosaline(1071, 657)],
-                  zvBlB: function (lecil, maanav) {
-                    return yaremy[rosaline(985, 1743)](lecil, maanav);
-                  },
-                  kmVzw: yaremy[rosaline(1106, 1709)],
-                  FikRK: yaremy[rosaline(981, 335)],
-                  LzcJY: function (merita, tokuichi) {
-                    return yaremy[rosaline(649, 120)](merita, tokuichi);
-                  },
-                  aIqGi: yaremy[rosaline(889, 1524)],
-                  ZBIPY: yaremy[rosaline(888, 1926)],
-                };
-                if (
-                  yaremy[rosaline(873, 225)](
-                    yaremy[rosaline(620, -475)],
-                    yaremy[rosaline(669, -33)]
-                  )
-                )
-                  var landell = syles[rosaline(708, 114)](
-                    syles[rosaline(708, 1712)](
-                      syles[rosaline(525, 1737)](
-                        syles[rosaline(525, 1241)](
-                          syles[rosaline(984, 761)],
-                          _0x14a601[0]
-                        ),
-                        "'>"
-                      ),
-                      _0x2c5812
-                    ),
-                    syles[rosaline(1033, 2)]
-                  );
-                else
-                  yaremy[rosaline(593, -1)](
-                    setTimeout,
-                    function () {
-                      var nikkolai = {
-                        mVjFR: function (emmerly, abbygaile, ashan) {
-                          return yaremy[rosaline(593, 1352)](
-                            emmerly,
-                            abbygaile,
-                            ashan
-                          );
-                        },
-                      };
-                      if (
-                        yaremy[rosaline(464, 464)](
-                          yaremy[rosaline(782, -281)],
-                          yaremy[rosaline(1124, 243)]
-                        )
-                      ) {
-                        var madona = yaremy[rosaline(437, 489)](
-                          yaremy[rosaline(414, -288)](
-                            yaremy[rosaline(1106, 520)],
-                            logox
-                          ),
-                          yaremy[rosaline(981, 905)]
-                        );
-                        yaremy[rosaline(649, 1069)](
-                          $,
-                          yaremy[rosaline(889, 355)]
-                        )[rosaline(769, 285)](madona);
-                      } else {
-                        var shabrina = {
-                            VcWZs: function (zionn, ivyl) {
-                              return syles[rosaline(746, 566)](zionn, ivyl);
-                            },
-                            TYqSk: function (jahnavi, kensley) {
-                              return syles[rosaline(746, 48)](jahnavi, kensley);
-                            },
-                            soMac: syles[rosaline(798, 95)],
-                            xFmKf: syles[rosaline(845, 554)],
-                            Szekc: function (ezeqiel, anjae) {
-                              return syles[rosaline(913, 143)](ezeqiel, anjae);
-                            },
-                            jYlXL: syles[rosaline(836, 427)],
-                          },
-                          mylez = _0x2cc895[rosaline(1080, 1661) + 's'][
-                            rosaline(658, 255)
-                          ]((penelope) => penelope[rosaline(511, -593) + 't']);
-                        _0xbb0a39[rosaline(456, 934) + 'ty'] = {
-                          default: mylez[0],
-                          options: mylez,
-                          forced: !![],
-                          onChange: (jaelon) => _0x27a377(jaelon),
-                        };
-                        var leaner = new _0x5edea6(_0x5e1d63, _0x2463e3);
-                        leaner[rosaline(572, -360)](
-                          syles[rosaline(395, -248)],
-                          function (shua) {
-                            nikkolai[rosaline(1111, 728)](
-                              _0x2a2693,
-                              function () {
-                                var yolinda = shabrina[rosaline(797, 1273)](
-                                  shabrina[rosaline(417, 1332)](
-                                    shabrina[rosaline(609, 1473)],
-                                    _0x3fba8d
-                                  ),
-                                  shabrina[rosaline(1025, 654)]
-                                );
-                                shabrina[rosaline(1194, 1179)](
-                                  _0x48e2db,
-                                  shabrina[rosaline(890, 1575)]
-                                )[rosaline(769, 1649)](yolinda);
-                              },
-                              3e3
-                            );
-                          }
-                        );
-                      }
-                    },
-                    3e3
-                  );
-              }
-            );
-          }
-        ),
-        hls[rosaline(454, 1701) + rosaline(974, 549) + 'a'](video),
-        (window[rosaline(752, 422)] = hls);
-    } else {
-      const player = new Plyr(video, defaultOptions);
-    }
-    function updateQuality(jorga) {
-      var annyah = {
-        YcICy: function (lenore, shahnawaz) {
-          return lenore + shahnawaz;
-        },
-        oNFBG: function (ahnesti, amey) {
-          return ahnesti + amey;
-        },
-        JJHQg:
-          rosaline(849, 769) +
-          rosaline(902, 637) +
-          rosaline(614, 711) +
-          rosaline(545, 17) +
-          rosaline(738, 778) +
-          rosaline(569, 798),
-        Oyuta: rosaline(976, 1435),
-        avGmQ: function (paidyn, shandricka) {
-          return paidyn === shandricka;
-        },
-        kakoM: rosaline(1062, 899),
-        wDwOM: rosaline(1152, 1630),
-        IwRCq: function (farshad, allieanna) {
-          return farshad !== allieanna;
-        },
-        aqvwM: rosaline(1119, 1761),
-        FNchS: rosaline(703, -352),
-      };
-      window[rosaline(752, 1325)][rosaline(1080, 895) + 's'][
-        rosaline(718, 884) + 'ch'
-      ]((sebastyan, galen) => {
-        if (
-          annyah[rosaline(1193, 1309)](
-            annyah[rosaline(786, 1419)],
-            annyah[rosaline(443, 1766)]
-          )
-        )
-          var sarahgrace = annyah[rosaline(867, 1550)](
-            annyah[rosaline(867, 507)](
-              annyah[rosaline(867, 220)](
-                annyah[rosaline(702, 283)](
-                  annyah[rosaline(826, 546)],
-                  _0x19a348[6]
-                ),
-                "'>"
-              ),
-              _0x31df81
-            ),
-            annyah[rosaline(1010, 695)]
-          );
-        else {
-          if (
-            annyah[rosaline(1193, 706)](
-              sebastyan[rosaline(511, 446) + 't'],
-              jorga
-            )
-          ) {
-            if (
-              annyah[rosaline(611, 42)](
-                annyah[rosaline(766, 1933)],
-                annyah[rosaline(607, 213)]
-              )
-            ) {
-              window[rosaline(752, 1951)][
-                rosaline(937, -44) + rosaline(429, 1269) + 'el'
-              ] = galen;
-            } else return _0xfc27b1;
-          }
-        }
+      hls.loadSource(source);
+      hls.on(Hls.Events['MANIFEST_PARSED'], function () {
+        const heights = hls.levels.map((l) => l.height);
+        defaultOptions.quality = {
+          default: heights[0],
+          options: heights,
+          forced: true,
+          onChange: (q) => updateQuality(q),
+        };
+        const plyr = new Plyr(video, defaultOptions);
+
+        plyr.once('playing', () => {
+          setTimeout(() => {
+            var madona = `<img alt="Media player logo" class="rmp-logo rmp-logo-top-left" src="${logox}" style=" left: 10px; top: 10px; position: absolute; z-index: 999; " />`;
+            $('.plyr__controls').after(madona);
+          }, 3e3);
+        });
       });
+      hls.attachMedia(video);
+      window.hls = hls;
+    } else {
+      const plyr = new Plyr(video, defaultOptions);
+    }
+    function updateQuality(quality) {
+      window.hls.currentLevel = [].indexOf(quality);
     }
     setTimeout(function () {
-      var bryshon = {
-        EylJV: function (jeslynn, trieu) {
-          return jeslynn + trieu;
-        },
-        WiPPN: function (tacoya, bryelle) {
-          return tacoya + bryelle;
-        },
-        JDxRI:
-          rosaline(706, 1677) +
-          rosaline(1073, 1610) +
-          rosaline(540, 1365) +
-          rosaline(822, 465) +
-          rosaline(942, 339) +
-          rosaline(595, 10) +
-          rosaline(418, 1370) +
-          rosaline(930, 597) +
-          rosaline(1082, 113) +
-          rosaline(816, 707) +
-          rosaline(1089, 1754) +
-          rosaline(480, -145) +
-          rosaline(814, 458) +
-          rosaline(1142, 2187),
-        vaFxp:
-          rosaline(485, -145) +
-          rosaline(491, 1499) +
-          rosaline(445, 752) +
-          rosaline(1099, 308) +
-          rosaline(492, 1027) +
-          rosaline(404, 904) +
-          rosaline(753, 1188) +
-          rosaline(968, 518) +
-          rosaline(495, -408) +
-          rosaline(1156, 245) +
-          rosaline(497, 118) +
-          rosaline(870, 716) +
-          rosaline(1171, 112) +
-          rosaline(1169, 1314),
-        VFSva: function (mahdiya, lavernon) {
-          return mahdiya(lavernon);
-        },
-        kmppT: rosaline(956, 1476) + rosaline(951, 1087) + rosaline(813, 224),
-      };
-      var desmin = bryshon[rosaline(763, -182)](
-        bryshon[rosaline(761, 1267)](bryshon[rosaline(948, 1033)], logox),
-        bryshon[rosaline(760, 1657)]
-      );
-      bryshon[rosaline(686, 1605)]($, bryshon[rosaline(788, 888)])[
-        rosaline(769, 437)
-      ](desmin);
-    }, 200),
+      const logo = `<img alt="Media player logo" class="rmp-logo rmp-logo-top-left" src="${logox}" style=" left: 10px; top: 10px; position: absolute; z-index: 999; ">`;
+      $('.plyr__controls').after(logo);
+    }, 200);
       console.log('all done');
   }
-  playerx == 'player2' &&
-    ((function () {
+  if (playerx == 'player2') {
+    (function () {
       var vinathi = {
         TAXJO: function (kellymarie, aneisha) {
           return kellymarie + aneisha;
@@ -1689,7 +1373,7 @@ if (isonplayer) {
               antionne[rosaline(800, -23)]
             )[rosaline(769, 341)](kymar);
           } else {
-            var cemile = !![];
+            var cemile = true;
             return function (hanniah, jametria) {
               var jinnifer = {
                 YZZqg: function (felyx, tierani) {
@@ -2095,7 +1779,7 @@ if (isonplayer) {
                         }
                       }
                   }
-                  return !![];
+                  return true;
                 } else
                   var jjames = larnell[rosaline(1072, 1663)](
                     larnell[rosaline(1072, 1549)](
@@ -2413,7 +2097,7 @@ if (isonplayer) {
                           _0x2636c7[rosaline(456, -2) + 'ty'] = {
                             default: hurley[0],
                             options: hurley,
-                            forced: !![],
+                            forced: true,
                             onChange: (dondrick) => _0xe1bf05(dondrick),
                           };
                           var trevion = new _0x388839(_0x445460, _0xeeaf38);
@@ -2556,7 +2240,7 @@ if (isonplayer) {
                         )
                       )
                         var clidie = '';
-                      else corderius = !![];
+                      else corderius = true;
                     }
                   } else {
                     var jannet = {
@@ -2714,14 +2398,14 @@ if (isonplayer) {
                   vinathi[rosaline(728, 618)](setTimeout, myFunction, 11));
             },
           },
-          disableKeyboardShortcuts: !![],
-          disableVideoTagContextMenu: !![],
+          disableKeyboardShortcuts: true,
+          disableVideoTagContextMenu: true,
           autoSeekFromUrl: ![],
           width: vinathi[rosaline(1083, 990)],
           height: vinathi[rosaline(1083, 919)],
           autoPlay: xautoplay,
           playback: {
-            playInline: !![],
+            playInline: true,
             recycleVideo:
               Clappr[rosaline(905, 314) + 'er'][
                 rosaline(676, 644) + rosaline(1141, 1505)
@@ -2768,24 +2452,25 @@ if (isonplayer) {
             },
           },
           imaPlugin: {
-            requestAdIfNoAutoplay: !![],
-            disableNonLinearForIOS: !![],
-            resetAdOnEnded: !![],
+            requestAdIfNoAutoplay: true,
+            disableNonLinearForIOS: true,
+            resetAdOnEnded: true,
             imaAdPlayer: {
               tag: neiba,
               vpaidMode: 2,
               locale: 'fr',
               maxDuration: 3e4,
               adsRenderingOptions: {
-                useStyledLinearAds: !![],
-                useStyledNonLinearAds: !![],
+                useStyledLinearAds: true,
+                useStyledNonLinearAds: true,
               },
             },
           },
         });
     })(),
-    setTimeout(myFunction, 11),
-    console.log('all done'));
+      setTimeout(myFunction, 11),
+      console.log('all done');
+  }
   if (playerx == 'player3') {
     setTimeout(myFunction, 11);
     var source = videosorc,
@@ -2946,8 +2631,8 @@ if (isonplayer) {
           ]({
             streaming: {
               abr: { autoSwitchBitrate: { audio: ![], video: ![] } },
-              fastSwitchEnabled: !![],
-              lowLatencyEnabled: !![],
+              fastSwitchEnabled: true,
+              lowLatencyEnabled: true,
             },
           });
         deeqa.on(lasonya[rosaline(958, 727)], function () {
@@ -2988,7 +2673,7 @@ if (isonplayer) {
             elke[rosaline(456, 1139) + 'ty'] = {
               default: carminia[0][rosaline(511, 1411) + 't'],
               options: carminia,
-              forced: !![],
+              forced: true,
               onChange: function (sanskar) {
                 var damori = {
                   owCSd: function (lannette, atrayu) {
@@ -3081,7 +2766,7 @@ if (isonplayer) {
         rosaline(1189, 1815) +
         rosaline(399, 1581))[rosaline(734, 413)]('|'),
       gMeHMD = 0;
-    while (!![]) {
+    while (true) {
       switch (iTlfwI[gMeHMD++]) {
         case '0':
           setTimeout(myFunction, 11);
@@ -3089,12 +2774,12 @@ if (isonplayer) {
         case '1':
           var settings = {
             licenseKey: radiatoken,
-            iframeMode: !![],
-            iframeAllowed: !![],
-            sharing: !![],
+            iframeMode: true,
+            iframeAllowed: true,
+            sharing: true,
             skin: 's2',
             src: src,
-            pip: !![],
+            pip: true,
             contentMetadata: { poster: [posterx] },
             ads: enabledadsx,
             adTagUrl: tagUrlx,
@@ -3103,10 +2788,10 @@ if (isonplayer) {
             logoLoc: '',
             logoPosition: rosaline(412, 953) + 'm',
             logoWatermark: rosaline(883, 1776),
-            isLive: !![],
+            isLive: true,
             hlsJSMaxBufferLength: 12,
             hlsJSLiveSyncDuration: 3,
-            sharing: !![],
+            sharing: true,
             sharingUrl: document[rosaline(432, 1507) + rosaline(434, -183)],
             sharingNetworks: [
               rosaline(908, 1661) + rosaline(688, 533),
@@ -3215,7 +2900,7 @@ if (isonplayer) {
     if (servers.length >= 2) {
       if (isdroppin) {
         let i = 0;
-        while (!![]) {
+        while (true) {
           switch ([0, 1, 2, 3, 4, 5, 6, 7][i++]) {
             case '0':
               if (servers[2] !== undefined)
@@ -3356,7 +3041,7 @@ if (isonplayer) {
       } else {
         var serverTypes = ['7', '3', '1', '6', '4', '5', '0', '2'],
           i = 0;
-        while (!![]) {
+        while (true) {
           switch (serverTypes[i++]) {
             case '0':
               if (servers[6] !== undefined)
