@@ -117,103 +117,27 @@ if (isonplayer) {
   }
   if (playerx == 'player3') {
     setTimeout(myFunction, 11);
-    var source = videosorc,
-      playerInstance = jwplayer(rosaline(909, 1572) + 'r');
-    jwplayer()[rosaline(721, 2094) + 'y'](function () {
-      var labresha = {
-        tbSVM: rosaline(685, 670),
-        WSaAJ: function (dekotah, elfida) {
-          return dekotah !== elfida;
-        },
-        KAAij: rosaline(963, 1472),
-        DiXxq: function (lethaniel, clinesha) {
-          return lethaniel + clinesha;
-        },
-        wqFPx: function (zalynn, devanna) {
-          return zalynn + devanna;
-        },
-        wRrQy:
-          rosaline(706, 723) +
-          rosaline(1073, 1613) +
-          rosaline(540, 1102) +
-          rosaline(822, 1122) +
-          rosaline(942, -150) +
-          rosaline(595, 598) +
-          rosaline(418, 1179) +
-          rosaline(930, 1075) +
-          rosaline(1082, 1669) +
-          rosaline(816, 1083) +
-          rosaline(1089, 1096) +
-          rosaline(480, -208) +
-          rosaline(814, 1091) +
-          rosaline(1142, 1882),
-        uKIKc:
-          rosaline(485, 514) +
-          rosaline(491, 420) +
-          rosaline(445, 799) +
-          rosaline(1099, 1211) +
-          rosaline(492, -293) +
-          rosaline(404, -188) +
-          rosaline(753, 791) +
-          rosaline(968, -118) +
-          rosaline(495, 24) +
-          rosaline(1156, 1193) +
-          rosaline(497, 589) +
-          rosaline(870, 319) +
-          rosaline(1171, 976) +
-          rosaline(1169, 924),
-        yvafX: function (mykiah, phinehas) {
-          return mykiah(phinehas);
-        },
-        jwMJR: rosaline(926, 49) + rosaline(1059, 146) + rosaline(868, 1038),
-        GeFRI: function (merrit, breeana, lindzy) {
-          return merrit(breeana, lindzy);
-        },
-      };
-      labresha[rosaline(411, 61)](
-        setTimeout,
-        function () {
-          var maira = { KEuGx: labresha[rosaline(664, 712)] };
-          if (
-            labresha[rosaline(632, 999)](
-              labresha[rosaline(765, 1858)],
-              labresha[rosaline(765, 727)]
-            )
-          )
-            var laurelle = {
-              hls: _0x377b21[rosaline(1163, 290) + 'ce'](
-                maira[rosaline(808, 1768)],
-                '&'
-              ),
-            };
-          else {
-            var nosheen = labresha[rosaline(416, -497)](
-              labresha[rosaline(750, 1115)](
-                labresha[rosaline(949, 1004)],
-                logox
-              ),
-              labresha[rosaline(488, 263)]
-            );
-            labresha[rosaline(1192, 664)]($, labresha[rosaline(530, -315)])[
-              rosaline(769, 1559)
-            ](nosheen);
-          }
-        },
-        200
-      );
-      labresha[rosaline(411, 723)](setTimeout, myFunction, 11);
-    }),
-      playerInstance[rosaline(1045, 1842)]({
-        file: source,
-        image: posterx,
-        height: rosaline(724, 737),
-        width: rosaline(724, 1839),
-        autostart: xautoplay,
-        advertising: {
-          client: rosaline(1131, 2072),
-          schedule: { adbreak1: { offset: rosaline(1006, 746), tag: tagUrlx } },
-        },
-      });
+    const source = videosorc;
+    const playerInstance = jwplayer('player');
+    jwplayer().onPlay(function () {
+      setTimeout(function () {
+        $('.jw-controlbar').after(
+          `<img alt="Media player logo" class="rmp-logo rmp-logo-top-left" src="${logox}" style=" left: 10px; top: 10px; position: absolute; z-index: 999; ">`
+        );
+      }, 200);
+    });
+    playerInstance.setup({
+      file: source,
+      image: posterx,
+      width: '100%',
+      height: 320,
+      autostart: xautoplay,
+      advertising: {
+        client: 'vast',
+        schedule: { adbreak1: { offset: 'pre', tag: tagUrlx } },
+      },
+    });
+    console.log('all done');
   }
   if (playerx == 'player5') {
     setTimeout(myFunction, 11);
