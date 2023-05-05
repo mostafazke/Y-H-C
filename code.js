@@ -141,327 +141,90 @@ if (isonplayer) {
   }
   if (playerx == 'player5') {
     setTimeout(myFunction, 11);
-    const video = document[
-      rosaline(916, 1546) + rosaline(622, 1789) + rosaline(644, 397)
-    ](rosaline(466, -262) + rosaline(674, 1552) + rosaline(1160, 884));
-    document[
-      rosaline(839, 1512) + rosaline(1058, 1694) + rosaline(838, 433) + 'r'
-    ](
-      rosaline(662, 1663) + rosaline(871, 431) + rosaline(1023, 796) + 'd',
-      function () {
-        var lasonya = {
-          JGUJJ: function (nand, morrey) {
-            return nand + morrey;
+    const video = document.getElementById('videoContainer');
+    document.addEventListener('DOMContentLoaded', function () {
+      const shammond = videosorc;
+      const player = dashjs.MediaPlayer().create();
+
+      var options = { autoplay: xautoplay };
+      player.initialize(video, shammond, false),
+        player.updateSettings({
+          streaming: {
+            abr: { autoSwitchBitrate: { audio: false, video: false } },
+            fastSwitchEnabled: true,
+            lowLatencyEnabled: true,
           },
-          NjoTJ:
-            rosaline(849, 137) +
-            rosaline(902, 971) +
-            rosaline(614, 1008) +
-            rosaline(545, -150) +
-            rosaline(738, 392) +
-            rosaline(569, -312),
-          tNXwD: rosaline(976, 1319),
-          ymKId: function (haval, nehemia) {
-            return haval !== nehemia;
-          },
-          lPQSe: rosaline(590, -665),
-          yWOJB: rosaline(692, 1288),
-          GcAPU: function (josejulian, aranzazu) {
-            return josejulian === aranzazu;
-          },
-          WiLlX: rosaline(740, 632),
-          kHtsh: rosaline(842, 834),
-          VVBQS: rosaline(466, 345),
-          QzdsC: rosaline(687, 912),
-          hcybw: function (tanyia, shanaz) {
-            return tanyia !== shanaz;
-          },
-          vtWHE: rosaline(596, 461),
-          yIWch: rosaline(1028, 1624),
-          cXmNK: function (tyyanna, tabitha, noctis) {
-            return tyyanna(tabitha, noctis);
-          },
-          KrEBZ:
-            rosaline(405, 1234) +
-            rosaline(1022, 1312) +
-            rosaline(1166, 900) +
-            'ed',
-        };
-        const shammond = window[rosaline(897, 282)](srcx);
-        const deeqa =
-          dashjs[rosaline(540, -549) + rosaline(1118, 1561) + 'r']()[
-            rosaline(872, 448) + 'e'
-          ]();
-        var elke = { autoplay: xautoplay };
-        deeqa[rosaline(573, 15) + rosaline(1100, 1390)](video, shammond, false),
-          deeqa[
-            rosaline(1165, 1553) + rosaline(833, 1116) + rosaline(828, 881)
-          ]({
-            streaming: {
-              abr: { autoSwitchBitrate: { audio: false, video: false } },
-              fastSwitchEnabled: true,
-              lowLatencyEnabled: true,
-            },
-          });
-        deeqa.on(lasonya[rosaline(958, 727)], function () {
-          var nabile = {
-            MrvIA: function (etham, sathwik) {
-              return lasonya[rosaline(438, 1189)](etham, sathwik);
-            },
-            tNaLD: lasonya[rosaline(988, 2021)],
-            iZZEa: lasonya[rosaline(744, 1485)],
-            cDJbx: function (sheary, dragan) {
-              return lasonya[rosaline(774, 547)](sheary, dragan);
-            },
-            nvIlG: lasonya[rosaline(1031, 1993)],
-            UAJFR: lasonya[rosaline(1132, 427)],
-            ZaXJx: function (ceron, khaleesie) {
-              return lasonya[rosaline(605, 992)](ceron, khaleesie);
-            },
-            UjUuv: lasonya[rosaline(477, 321)],
-            weUnX: lasonya[rosaline(910, 576)],
-            JEDXn: lasonya[rosaline(1190, 2161)],
-            rxDIZ: lasonya[rosaline(1104, 1789)],
-          };
-          if (
-            lasonya[rosaline(804, 1675)](
-              lasonya[rosaline(625, 857)],
-              lasonya[rosaline(618, 758)]
-            )
-          ) {
-            const carminia = deeqa[
-              rosaline(716, 269) +
-                rosaline(673, 976) +
-                rosaline(1175, 1854) +
-                rosaline(1017, 981) +
-                'r'
-            ](lasonya[rosaline(1190, 1107)])[rosaline(658, 305)](
-              (wanderlei) => wanderlei[rosaline(511, 1211) + 't']
-            );
-            elke[rosaline(456, 1139) + 'ty'] = {
-              default: carminia[0][rosaline(511, 1411) + 't'],
-              options: carminia,
-              forced: true,
-              onChange: function (sanskar) {
-                var damori = {
-                  owCSd: function (lannette, atrayu) {
-                    return nabile[rosaline(439, 1244)](lannette, atrayu);
-                  },
-                  KljoZ: nabile[rosaline(903, 1394)],
-                  qCmZp: nabile[rosaline(588, -295)],
-                  TCobB: function (velisha, janael) {
-                    return nabile[rosaline(499, -360)](velisha, janael);
-                  },
-                  ffyLs: nabile[rosaline(852, 1477)],
-                  UXAOL: nabile[rosaline(806, 1534)],
-                  xmstN: nabile[rosaline(1075, 1020)],
-                };
-                if (
-                  nabile[rosaline(499, 828)](
-                    nabile[rosaline(807, 1325)],
-                    nabile[rosaline(807, 1554)]
-                  )
-                )
-                  deeqa[
-                    rosaline(716, 1724) +
-                      rosaline(673, 1355) +
-                      rosaline(1175, 1511) +
-                      rosaline(1017, 848) +
-                      'r'
-                  ](nabile[rosaline(1075, 1312)])[rosaline(718, 1866) + 'ch'](
-                    (jazelle, bayah) => {
-                      if (
-                        damori[rosaline(1044, -115)](
-                          damori[rosaline(1180, 1498)],
-                          damori[rosaline(1188, 91)]
-                        )
-                      ) {
-                        if (
-                          damori[rosaline(970, 1431)](
-                            jazelle[rosaline(511, 1589) + 't'],
-                            sanskar
-                          )
-                        ) {
-                          if (
-                            damori[rosaline(1044, 348)](
-                              damori[rosaline(1120, 2187)],
-                              damori[rosaline(1043, 1648)]
-                            )
-                          )
-                            deeqa[
-                              rosaline(915, 1409) +
-                                rosaline(887, -148) +
-                                rosaline(1139, 1971)
-                            ](
-                              damori[rosaline(959, -168)],
-                              jazelle[
-                                rosaline(456, -584) + rosaline(1013, 188) + 'ex'
-                              ]
-                            );
-                          else return false;
-                        }
-                      } else return;
-                    }
-                  );
-                else
-                  var emmanuelle = nabile[rosaline(578, 970)](
-                    nabile[rosaline(578, -310)](
-                      nabile[rosaline(578, 1188)](
-                        nabile[rosaline(578, 1366)](
-                          nabile[rosaline(1127, 856)],
-                          _0x258264[2]
-                        ),
-                        "'>"
-                      ),
-                      _0x14e0ee
-                    ),
-                    nabile[rosaline(1074, 2073)]
-                  );
-              },
-            };
-            const tanveer = new Plyr(video, elke);
-            (window[rosaline(909, 2004) + 'r'] = tanveer),
-              (window[rosaline(851, 1016)] = deeqa),
-              lasonya[rosaline(487, 308)](setTimeout, myFunction, 11);
-          } else var johnmatthew = '';
         });
-        deeqa[rosaline(454, 597) + rosaline(972, 1150)](video);
-      }
-    );
+
+      player.on('streamInitialized', function () {
+        const heights = player
+          .getBitrateInfoListFor('video')
+          .map((stream) => stream.height);
+
+        options.quality = {
+          default: heights[0],
+          options: heights,
+          forced: true,
+          onChange: function (height) {
+            player.getBitrateInfoListFor('video').forEach((streams) => {
+              if (streams.height == height) {
+                player.setQualityFor('video', streams.qualityIndex);
+              }
+            });
+          },
+        };
+        const plyr = new Plyr(video, options);
+        window.player = plyr;
+        window.dash = player;
+      });
+      player.attachView(video);
+    });
   }
   if (playerx == 'player6') {
-    var iTlfwI = (rosaline(668, 31) +
-        rosaline(1189, 1815) +
-        rosaline(399, 1581))[rosaline(734, 413)]('|'),
-      gMeHMD = 0;
-    while (true) {
-      switch (iTlfwI[gMeHMD++]) {
-        case '0':
-          setTimeout(myFunction, 11);
-          continue;
-        case '1':
-          var settings = {
-            licenseKey: radiatoken,
-            iframeMode: true,
-            iframeAllowed: true,
-            sharing: true,
-            skin: 's2',
-            src: src,
-            pip: true,
-            contentMetadata: { poster: [posterx] },
-            ads: enabledadsx,
-            adTagUrl: tagUrlx,
-            autoplay: xautoplay,
-            logo: logox,
-            logoLoc: '',
-            logoPosition: rosaline(412, 953) + 'm',
-            logoWatermark: rosaline(883, 1776),
-            isLive: true,
-            hlsJSMaxBufferLength: 12,
-            hlsJSLiveSyncDuration: 3,
-            sharing: true,
-            sharingUrl: document[rosaline(432, 1507) + rosaline(434, -183)],
-            sharingNetworks: [
-              rosaline(908, 1661) + rosaline(688, 533),
-              rosaline(442, -416) + 'er',
-              rosaline(517, 357) + rosaline(957, 1881),
-            ],
-            sharingCode:
-              rosaline(532, -335) +
-              rosaline(1015, 1837) +
-              rosaline(917, 1507) +
-              rosaline(821, 454) +
-              rosaline(841, 195) +
-              rosaline(413, 234) +
-              rosaline(1177, 1027) +
-              rosaline(624, 455) +
-              '"' +
-              window[rosaline(483, 1224) + rosaline(415, 414)][
-                rosaline(562, 37)
-              ] +
-              (rosaline(485, 1067) +
-                rosaline(402, 1755) +
-                rosaline(682, 1382) +
-                rosaline(592, 1301) +
-                rosaline(907, 206) +
-                rosaline(986, 453) +
-                rosaline(657, 556) +
-                rosaline(504, -2) +
-                rosaline(1018, 335) +
-                rosaline(863, 2180) +
-                rosaline(529, 280) +
-                rosaline(1027, 944) +
-                rosaline(921, 1007) +
-                rosaline(1138, 616) +
-                rosaline(966, 795) +
-                rosaline(992, 1616) +
-                rosaline(695, 1831) +
-                rosaline(663, -19) +
-                rosaline(583, 296) +
-                rosaline(670, 577) +
-                rosaline(1155, 440) +
-                rosaline(1042, 1789) +
-                rosaline(444, 1230) +
-                rosaline(1011, 547) +
-                rosaline(996, 2080) +
-                rosaline(754, 192) +
-                rosaline(473, 67)),
-            gaTrackingId:
-              rosaline(1164, 1086) + rosaline(677, 1895) + rosaline(1049, 1845),
-            gaCategory:
-              rosaline(478, 523) +
-              rosaline(457, 1075) +
-              rosaline(1096, 2275) +
-              'o',
-            gaLabel:
-              rosaline(463, 1601) +
-              rosaline(577, 1248) +
-              rosaline(747, 1346) +
-              rosaline(820, 1765) +
-              rosaline(980, 1571) +
-              rosaline(725, 74),
-            gaEvents: [
-              rosaline(699, 277) + 'xt',
-              rosaline(785, 756),
-              rosaline(909, 820) + rosaline(1064, 673) + 't',
-              rosaline(1093, 912),
-              rosaline(859, 2049) + rosaline(575, 1221) + 'on',
-              rosaline(1116, 1049) + rosaline(424, 892) + rosaline(943, 1918),
-              rosaline(1047, 864) + 'or',
-            ],
-          };
-          continue;
-        case '2':
-          var rmp = new RadiantMP(elementID);
-          continue;
-        case '3':
-          var elementID = rosaline(1126, 2219) + rosaline(938, 2059);
-          continue;
-        case '4':
-          console.log(dashorhls);
-          continue;
-        case '5':
-          if (dashorhls == rosaline(752, 1576))
-            var src = {
-              hls: videosorc[rosaline(1163, 551) + 'ce'](
-                rosaline(685, 1915),
-                '&'
-              ),
-            };
-          else
-            var src = {
-              dash: videosorc[rosaline(1163, 1006) + 'ce'](
-                rosaline(685, 1140),
-                '&'
-              ),
-            };
-          continue;
-        case '6':
-          rmp[rosaline(1001, 1829)](settings);
-          continue;
-      }
-      break;
-    }
+    setTimeout(myFunction, 11);
+
+    const src = {
+      [dashorhls]: videosorc.replace('&amp;', '&'),
+    };
+
+    var settings = {
+      licenseKey: radiatoken,
+      iframeMode: true,
+      iframeAllowed: true,
+      sharing: true,
+      skin: 's2',
+      src: src,
+      pip: true,
+      contentMetadata: { poster: [posterx] },
+      ads: enabledadsx,
+      adTagUrl: tagUrlx,
+      autoplay: xautoplay,
+      logo: logox,
+      logoLoc: '',
+      logoPosition: 'bottom',
+      logoWatermark: false,
+      isLive: true,
+      hlsJSMaxBufferLength: 12,
+      hlsJSLiveSyncDuration: 3,
+      sharing: true,
+      sharingUrl: document.referrer,
+      sharingNetworks: ['facebook', 'twitter', 'linkedin'],
+      sharingCode: `<iframe width="100%" height="500px" src="${window.location.href}" style="border:none;" allowfullscreen allow="autoplay; fullscreen; picture-in-picture; xr-spatial-tracking; encrypted-media"></iframe>`,
+      gaTrackingId: 'UA-106571682-1',
+      gaCategory: 'E-learning video',
+      gaLabel: 'How to start with HTML5 video',
+      gaEvents: [
+        'context ready',
+        'playerstart',
+        'error',
+        'adimpression',
+        'adloadererror',
+        'aderror',
+      ],
+    };
+
+    var rmp = new RadiantMP('rmpPlayer');
+    rmp.init(settings);
   }
   if (playerx == 'multiple') {
     setTimeout(myFunction, 11);
