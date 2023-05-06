@@ -228,203 +228,54 @@ if (isonplayer) {
   }
   if (playerx == 'multiple') {
     setTimeout(myFunction, 11);
+    // check if there are at least two servers
     if (servers.length >= 2) {
+      // check if dropdown is needed
       if (isdroppin) {
-        let i = 0;
-        while (true) {
-          switch ([0, 1, 2, 3, 4, 5, 6, 7][i++]) {
-            case '0':
-              if (servers[2] !== undefined)
-                var s2 =
-                  rosaline(1107, 793) +
-                  rosaline(1183, 589) +
-                  rosaline(902, 630) +
-                  rosaline(614, 609) +
-                  rosaline(545, 242) +
-                  rosaline(738, 345) +
-                  rosaline(569, 652) +
-                  servers[2] +
-                  "'>" +
-                  srvn2 +
-                  (rosaline(1146, 869) + rosaline(1034, 473));
-              else var s2 = '';
-              continue;
-            case '1':
-              if (servers[1] !== undefined)
-                var s1 =
-                  rosaline(1107, 797) +
-                  rosaline(1183, 1283) +
-                  rosaline(902, 534) +
-                  rosaline(614, 431) +
-                  rosaline(545, 1155) +
-                  rosaline(738, -114) +
-                  rosaline(569, 1560) +
-                  servers[1] +
-                  "'>" +
-                  srvn1 +
-                  (rosaline(1146, 857) + rosaline(1034, 577));
-              else var s1 = '';
-              continue;
-            case '2':
-              if (servers[3] !== undefined)
-                var s3 =
-                  rosaline(1107, 1961) +
-                  rosaline(1183, 1244) +
-                  rosaline(902, 156) +
-                  rosaline(614, 653) +
-                  rosaline(545, 1213) +
-                  rosaline(738, 7) +
-                  rosaline(569, 143) +
-                  servers[3] +
-                  "'>" +
-                  srvn3 +
-                  (rosaline(1146, 1990) + rosaline(1034, 763));
-              else var s3 = '';
-              continue;
-            case '3':
-              if (servers[4] !== undefined)
-                var s4 =
-                  rosaline(1107, 970) +
-                  rosaline(1183, 761) +
-                  rosaline(902, 420) +
-                  rosaline(614, 1993) +
-                  rosaline(545, 1460) +
-                  rosaline(738, 813) +
-                  rosaline(569, 1448) +
-                  servers[4] +
-                  "'>" +
-                  srvn4 +
-                  (rosaline(1146, 794) + rosaline(1034, 790));
-              else var s4 = '';
-              continue;
-            case '4':
-              if (servers[5] !== undefined)
-                var s5 =
-                  rosaline(1107, 544) +
-                  rosaline(1183, 1844) +
-                  rosaline(902, 1613) +
-                  rosaline(614, 1733) +
-                  rosaline(545, -80) +
-                  rosaline(738, 466) +
-                  rosaline(569, 500) +
-                  servers[5] +
-                  "'>" +
-                  srvn5 +
-                  (rosaline(1146, 1993) + rosaline(1034, 1436));
-              else var s5 = '';
-              continue;
-            case '5':
-              if (servers[6] !== undefined)
-                var s6 =
-                  rosaline(1107, 419) +
-                  rosaline(1183, 959) +
-                  rosaline(902, 2174) +
-                  rosaline(614, 1403) +
-                  rosaline(545, 309) +
-                  rosaline(738, 774) +
-                  rosaline(569, 9) +
-                  servers[6] +
-                  "'>" +
-                  srvn6 +
-                  (rosaline(1146, 778) + rosaline(1034, 922));
-              else var s6 = '';
-              continue;
-            case '6':
-              $(rosaline(962, 2094) + 'lt')[rosaline(617, 230) + 'd'](
-                rosaline(1066, 1952) +
-                  rosaline(447, -320) +
-                  rosaline(893, 308) +
-                  rosaline(614, 618) +
-                  rosaline(462, 1266) +
-                  rosaline(696, 58) +
-                  rosaline(1172, 1179) +
-                  rosaline(768, 158) +
-                  rosaline(683, 201) +
-                  s0 +
-                  s1 +
-                  s2 +
-                  s3 +
-                  s4 +
-                  s5 +
-                  s6 +
-                  (rosaline(876, 883) + rosaline(468, 1345))
-              );
-              continue;
-            case '7':
-              if (servers[0] !== undefined)
-                var s0 =
-                  rosaline(1107, 1254) +
-                  rosaline(1183, 1758) +
-                  rosaline(902, 1856) +
-                  rosaline(614, 153) +
-                  rosaline(545, 1163) +
-                  rosaline(738, 226) +
-                  rosaline(569, 81) +
-                  servers[0] +
-                  "'>" +
-                  srvnd +
-                  (rosaline(1146, 853) + rosaline(1034, 1932));
-              else var s0 = '';
-              continue;
+        const serverOptions = servers.reduce((options, server, i) => {
+          if (server !== undefined) {
+            options.push(
+              `<option class='button' data-link='${server}'>${
+                window[`srvn${i}`]
+              }</option>`
+            );
           }
-          break;
-        }
+          return options;
+        }, []);
+
+        $('#result').append(
+          `<select class='button active' id='comboA'>${serverOptions.join(
+            ''
+          )}</select>`
+        );
       } else {
-        var serverTypes = ['7', '3', '1', '6', '4', '5', '0', '2'],
-          i = 0;
-        while (true) {
-          switch (serverTypes[i++]) {
-            case '0':
-              if (servers[6] !== undefined)
-                var s6 = `<a class='button' data-link='undefined'>${srvn6}</a>`;
-              else var s6 = '';
-              continue;
-            case '1':
-              if (servers[2] !== undefined)
-                var s2 = `<a class='button' data-link='undefined'>${srvn2}</a>`;
-              else var s2 = '';
-              continue;
-            case '2':
-              $('#result').append(
-                `<a class='button' onclick='window.location.reload();'>تحديث</a>
-                ${s0}${s1}${s2}${s3}${s4}${s5}${s6}
-                `
-              );
-              continue;
-            case '3':
-              if (servers[1] !== undefined)
-                var s1 = `<a class='button' data-link='${servers[1]}'>${srvn1}</a>`;
-              else var s1 = '';
-              continue;
-            case '4':
-              if (servers[4] !== undefined)
-                var s4 = `<a class='button' data-link='${servers[4]}'>${srvn4}</a>`;
-              else var s4 = '';
-              continue;
-            case '5':
-              if (servers[5] !== undefined)
-                var s5 = `<a class='button' data-link='${servers[5]}'>${srvn5}</a>`;
-              else var s5 = '';
-              continue;
-            case '6':
-              if (servers[3] !== undefined)
-                var s3 = `<a class='button' data-link='${servers[3]}'>${srvn3}</a>`;
-              else var s3 = '';
-              continue;
-            case '7':
-              if (servers[0] !== undefined)
-                var s0 = `<a class='button' data-link='${servers[0]}'>${srvnd}</a>`;
-              else var s0 = '';
-              continue;
+        const serverButtons = servers.reduce((buttons, server, i) => {
+          if (server !== undefined) {
+            buttons.push(
+              `<a class='button' data-link='${server}'>${
+                window[`srvn${i}`]
+              }</a>`
+            );
           }
-          break;
-        }
+          return buttons;
+        }, []);
+
+        $('#result').append(
+          `<a class='button' onclick='window.location.reload();'>تحديث</a>${serverButtons.join(
+            ''
+          )}`
+        );
       }
     }
-    $('#iframe').attr(src, servers[0]);
+
+    // set the first server as the default option
+    $('#iframe').attr('src', servers[0]);
+
+    // handle tab change events
     if (isdroppin) {
       $('select#comboA').change(function () {
-        const dataLink = $(this).children('option:selected').attr('data-link');
+        const selectedOption = $(this).children('option:selected');
+        const dataLink = selectedOption.attr('data-link');
         $('#iframe').attr('src', dataLink);
         setTimeout(myFunction, 11);
       });
